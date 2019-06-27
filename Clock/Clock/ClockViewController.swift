@@ -14,5 +14,7 @@ class ClockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.clockView.timezone = TimeZone(abbreviation: "EDT")
     }
 }
